@@ -1,0 +1,174 @@
+---
+title: "Shall-issue laws and crime in the U.S."
+author: "José Londoño"
+institute: "EAFIT University"
+date: "June 2020"
+output:
+  xaringan::moon_reader:
+    yolo: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: left
+
+```{r xaringanExtra-freezeframe, echo=FALSE, message=F, warning=F}
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_scribble()
+library(here)
+```
+
+# Guns and violence in the U.S.
+
+.center[
+```{r, echo=F,  out.width="70%"}
+knitr::include_graphics("figures/gunPercentage.png")
+```
+]
+
+.footnote[
+[1] Retrieved from [America's gun culture in charts](https://www.bbc.com/news/world-us-canada-41488081)
+]
+
+
+
+---
+
+# Guns and violence in the U.S.
+
+.center[
+```{r, echo=F,  out.width="70%"}
+knitr::include_graphics("figures/noFirearms.png")
+```
+]
+
+.footnote[
+[1] Retrieved from [America's gun culture in charts](https://www.bbc.com/news/world-us-canada-41488081)
+]
+
+---
+
+class: left
+# Literature: Lott & Mustard
+
+.pull-left[
+<img src="figures/Lott2.jpeg" alt="drawing" width="400"/>
+]
+
+--
+
+.pull-right[
+<img src="https://media1.tenor.com/images/d56f07c6c8bd1e97b3a6593e1094d225/tenor.gif?itemid=7666222" alt="guns" width="350", height="380"/>
+]
+
+???
+
+John Lott & David Mustardp
+
+---
+
+background-image: url("https://media.giphy.com/media/1etWs6HIlQM3Q0CDbt/giphy.gif")
+background-size: cover
+background-position: 20% 10%
+
+---
+
+class: left
+# Literature: Ayres & Donohue
+
+<img src="figures/Donohue.jpeg" alt="drawing" width="700"/>
+
+???
+
+Ian Ayres & John Donohue III
+
+---
+
+# Data
+
+- Panel data on **crime rates** and passing of **shall-issue laws**.
+- 50 states + 1 Washington D.C (1977-1999)
+
+--
+
+.center[
+<img src="figures/ShallLaw.jpeg" alt="drawing" width="500"/>
+]
+
+---
+## Shall-issue
+
+```{r, shall_evolution ,echo=F}
+knitr::include_graphics("figures/shall_evolution.png")
+```
+
+
+---
+background-image: url("figures/map.png")
+background-size: contain
+
+
+---
+
+
+.middle[
+```{r, crime_series, echo=FALSE}
+knitr::include_graphics("figures/crime_series.png")
+```
+]
+---
+
+# Model selection
+
+Ayres and Donohue
+
+<br>
+
+$$\log{crime} = shall\beta_1 +  X \beta_2 +  \lambda j + u$$
+<br>
+
+--
+
+Spatial Durbin model
+
+<br>
+
+$$\log{crime} = \rho W\log{crime} + shall \phi_1 +  Wshall\phi_2 + X \beta + WX\theta +  \lambda j  + \epsilon$$
+
+???
+
+Elhorst (2010): Si el modelo MCO es rechazado en favor del spatial lag model, spatial error model o en favor de ambos modelos, entonces el modelo Durbin espacial debe ser estimado.
+
+
+---
+
+.middle[
+```{r, results1, echo=FALSE}
+knitr::include_graphics("figures/results1.png")
+```
+]
+---
+### The spatially lagged results
+
+.middle[
+```{r, results2, echo=FALSE}
+knitr::include_graphics("figures/results2.png")
+```
+]
+
+---
+
+# Guns?
+More guns more crime? more guns less crime? more more less more? less less more guns? guns?
+
+<br>
+--
+
+.center[
+# We don't know
+]
+
+And that is different than stating that more guns == less crime
