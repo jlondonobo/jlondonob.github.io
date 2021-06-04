@@ -1,0 +1,13 @@
+navbar:
+  title: José Londoño
+  left:
+  - text: Proyectos
+    href: schedule.html
+  - text: Presentaciones
+    - text: Econometría Avanzada 1
+      href: lab01.html
+    - text: Econometría Avanzada 2
+      href: lab02.html
+output:
+  html_document:
+    theme: flatly
