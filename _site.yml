@@ -5,9 +5,9 @@ navbar:
     href: schedule.html
   - text: Presentaciones
     - text: Econometría Avanzada 1
-      href: lab01.html
+      href: IntroPresentation.html
     - text: Econometría Avanzada 2
-      href: lab02.html
+      href: finalPresentation.html
 output:
   html_document:
     theme: flatly
