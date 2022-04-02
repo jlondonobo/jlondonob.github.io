@@ -4,16 +4,16 @@ defaultContentLanguage: es
 title: José Londoño
 
 params:
-    defaultTheme: dark
+    defaultTheme: light
 
     profileMode:
         enabled: true
-        title: "José Londoño"
-        subtitle: "Científico de Datos. Formado economista."
+        title: "Hola! Soy José Londoño 👋🏻"
+        subtitle: "Soy un científico de dato basado en Medellín, Colombia. 🇨🇴"
         imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
-        imageWidth: 250 # custom size
-        imageHeight: 250 # custom size
+        imageWidth: 350 # custom size
+        imageHeight: 350 # custom size
         buttons:
           - name: Blog
             url: "/blog"
