@@ -4,7 +4,7 @@ date: 2021-10-18T17:10:10-05:00
 #draft: false
 ---
 
-Mi nombre es José Londoño, tengo 21 años y soy un apasionado por los datos. En una mezcla entre la lectura y dedicación por la analítica, he desarrollado un gusto profundo por entender las historias que nos cuentan los datos y por usarlas para comprender el mundo en que vivimos. Este blog es una forma de compartir mi pasión y proyectar algunas de mis ideas.
+Mi nombre es José Londoño, tengo 22 años y soy un apasionado por los datos. En una mezcla entre la lectura y dedicación por la analítica, he desarrollado un gusto profundo por entender las historias que nos cuentan los datos y por usarlas para comprender el mundo en que vivimos. Este blog es una forma de compartir mi pasión y proyectar algunas de mis ideas.
 
 Soy **economista** de la **Universidad EAFIT**. Mi constante deseo de aprender y mi gusto por las matemáticas y la estadística me llevaron a graduarme con el promedio más alto de clase. Además de tomar los cursos del currículo académico, desde segundo año universitario comencé a programar en R y creé mi propio curriculo personal para aprender a solucionar problemas reales a través del uso de datos.
 
