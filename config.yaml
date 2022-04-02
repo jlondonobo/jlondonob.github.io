@@ -1,0 +1,60 @@
+baseURL: https://jlondono.co/
+languageCode: es
+defaultContentLanguage: es
+title: José Londoño
+
+params:
+    defaultTheme: dark
+
+    profileMode:
+        enabled: true
+        title: "José Londoño"
+        subtitle: "Científico de Datos. Formado economista."
+        imageUrl: "assets/me.jpg" 
+        imageTitle: "Me" # optional
+        imageWidth: 250 # custom size
+        imageHeight: 250 # custom size
+        buttons:
+          - name: Blog
+            url: "/blog"
+          - name: Github
+            url: "https://github.com/jlondonob"
+
+    socialIcons:
+        - name: "Linkedin"
+          url: "https://www.linkedin.com/in/jose-londono-botero"
+        - name: "Github"
+          url: "https://github.com/jlondonob"
+        - name: "Twitter"
+          url: "https://twitter.com/jlondonobo"
+        - name: "Instagram"
+          url: "https://www.instagram.com/joselipis27/"
+        - name: "Email"
+          url: "mailto:j.londonobo@gmail.com"
+
+menu:
+  main:
+  - identifier: About
+    name: Sobre Mi
+    url: /about
+    weight: 10
+  - identifier: Blog
+    name: Blog
+    url: /blog/
+    weight: 20
+  - identifier: Contacto
+    name: Contacto
+    url: /contact
+    weight: 30
+
+    
+    ShowShareButtons: true
+
+    ShowReadingTime: true
+
+    ShowCodeCopyButtons: true
+
+
+theme: PaperMod
+
+
