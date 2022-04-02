@@ -1,5 +1,5 @@
 ---
-title: "Sobre Mi"
+title: "Sobre Mi 👋🏻"
 date: 2021-10-18T17:10:10-05:00
 #draft: false
 ---

@@ -2,7 +2,7 @@
 title: Ética de la IA
 description: Resumen de IA Ethics de Mark Coeckelbergh
 date: "2021-10-08"
-draft: true
+draft: false
 categories:
 - Resumenes
 - AI
