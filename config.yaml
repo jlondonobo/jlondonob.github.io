@@ -32,22 +32,6 @@ params:
         - name: "Email"
           url: "mailto:j.londonobo@gmail.com"
 
-menu:
-  main:
-  - identifier: About
-    name: About me
-    url: /about
-    weight: 10
-  - identifier: Blog
-    name: Blog
-    url: /blog/
-    weight: 20
-  - identifier: Contact
-    name: Contact
-    url: /contact
-    weight: 30
-
-    
     ShowShareButtons: true
 
     ShowReadingTime: true
