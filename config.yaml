@@ -1,6 +1,6 @@
 baseURL: https://joselondono.co/
-languageCode: es
-defaultContentLanguage: es
+languageCode: en
+defaultContentLanguage: en
 title: José Londoño
 
 params:
@@ -8,8 +8,8 @@ params:
 
     profileMode:
         enabled: true
-        title: "Hola! Soy José Londoño 👋🏻"
-        subtitle: "Soy un científico de dato basado en Medellín, Colombia. 🇨🇴"
+        title: "Hi! I'm José Londoño 👋🏻"
+        subtitle: "I'm a data scientist from Medellín, Colombia. 🇨🇴"
         imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
@@ -35,15 +35,15 @@ params:
 menu:
   main:
   - identifier: About
-    name: Sobre Mi
+    name: About me
     url: /about
     weight: 10
   - identifier: Blog
     name: Blog
     url: /blog/
     weight: 20
-  - identifier: Contacto
-    name: Contacto
+  - identifier: Contact
+    name: Contact
     url: /contact
     weight: 30
 
