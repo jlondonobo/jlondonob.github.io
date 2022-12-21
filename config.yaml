@@ -17,20 +17,18 @@ params:
         buttons:
           - name: Blog
             url: "/blog"
-          - name: Github
-            url: "https://github.com/jlondonob"
 
     socialIcons:
-        - name: "Linkedin"
-          url: "https://www.linkedin.com/in/jose-londono-botero"
-        - name: "Github"
-          url: "https://github.com/jlondonob"
         - name: "Twitter"
           url: "https://twitter.com/jlondonobo"
-        - name: "Instagram"
-          url: "https://www.instagram.com/joselipis27/"
+        - name: "Github"
+          url: "https://github.com/jlondonob"
         - name: "Email"
           url: "mailto:j.londonobo@gmail.com"
+        - name: "Linkedin"
+          url: "https://www.linkedin.com/in/jose-londono-botero"
+        - name: "Medium"
+          url: "https://jlondonobo.medium.com/"
 
     ShowShareButtons: true
 
