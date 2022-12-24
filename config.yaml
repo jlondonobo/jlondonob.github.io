@@ -16,9 +16,6 @@ params:
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
         imageHeight: 350 # custom size
-        buttons:
-          - name: Blog
-            url: "/blog"
 
     socialIcons:
         - name: "Twitter"
