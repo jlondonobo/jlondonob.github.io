@@ -11,6 +11,7 @@ params:
         title: "Hi! I'm José Londoño 👋🏻"
         subtitle: "I'm a data scientist from Medellín, Colombia. 🇨🇴"
         intro: "I have been unlocking insights through Machine Learning, and Data Analysis with different national and international teams. 🌎"
+        intro2: "I like to build tools that help data teams with Python, SQL, Docker, and Deep Learning frameworks."
         imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
@@ -31,7 +32,7 @@ params:
         - name: "Medium"
           url: "https://jlondonobo.medium.com/"
 
-    ShowShareButtons: true
+    ShowShareButtons: false
 
     ShowReadingTime: true
 

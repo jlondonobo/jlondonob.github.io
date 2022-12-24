@@ -8,6 +8,7 @@
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <span>{{ .subtitle }}</span>
         <div class="profile_info">{{ .intro }}</div>
+        <div class="profile_info">{{ .intro2 }}</div>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
