@@ -9,6 +9,7 @@
         <span>{{ .subtitle }}</span>
         <div class="profile_info">{{ .intro }}</div>
         <div class="profile_info">{{ .intro2 }}</div>
+        <div class="profile_info">{{ .line_to_blog | markdownify }}</div>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
