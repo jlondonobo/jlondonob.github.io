@@ -18,6 +18,10 @@
     margin: 12px 0;
 }
 
+.profile .profile_inner .profile_info a{
+    color: #0000EE;
+}
+
 .profile img {
     display: inline-table;
     border-radius: 50%;
