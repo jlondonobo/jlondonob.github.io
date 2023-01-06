@@ -9,10 +9,6 @@ params:
     profileMode:
         enabled: true
         title: "Hi! I'm José Londoño 👋🏻"
-        subtitle: "I'm a data scientist from Medellín, Colombia. 🇨🇴"
-        intro: "I have been unlocking insights through Machine Learning, and Data Analysis with different national and international teams. 🌎"
-        intro2: "I like to build tools that help data teams with Python, SQL, Docker, and Deep Learning frameworks."
-        line_to_blog: "You might want to take a look at my [Blog](https://joselondono.co/blog/) where I talk about new technologies in the field. 🚀"
         imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
