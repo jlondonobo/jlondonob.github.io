@@ -1,6 +1,6 @@
 baseURL: https://joselondono.co/
-languageCode: es
-defaultContentLanguage: es
+languageCode: en
+defaultContentLanguage: en
 title: José Londoño
 
 params:
@@ -8,47 +8,29 @@ params:
 
     profileMode:
         enabled: true
-        title: "Hola! Soy José Londoño 👋🏻"
-        subtitle: "Soy un científico de dato basado en Medellín, Colombia. 🇨🇴"
+        title: "Hi! I'm José Londoño 👋🏻"
+        subtitle: "I'm a data scientist from Medellín, Colombia. 🇨🇴"
+        intro: "I have been unlocking insights through Machine Learning, and Data Analysis with different national and international teams. 🌎"
+        intro2: "I like to build tools that help data teams with Python, SQL, Docker, and Deep Learning frameworks."
+        line_to_blog: "You might want to take a look at my [Blog](https://joselondono.co/blog/) where I talk about new technologies in the field. 🚀"
         imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
         imageHeight: 350 # custom size
-        buttons:
-          - name: Blog
-            url: "/blog"
-          - name: Github
-            url: "https://github.com/jlondonob"
 
     socialIcons:
-        - name: "Linkedin"
-          url: "https://www.linkedin.com/in/jose-londono-botero"
-        - name: "Github"
-          url: "https://github.com/jlondonob"
         - name: "Twitter"
           url: "https://twitter.com/jlondonobo"
-        - name: "Instagram"
-          url: "https://www.instagram.com/joselipis27/"
+        - name: "Github"
+          url: "https://github.com/jlondonob"
         - name: "Email"
           url: "mailto:j.londonobo@gmail.com"
+        - name: "Linkedin"
+          url: "https://www.linkedin.com/in/jose-londono-botero"
+        - name: "Medium"
+          url: "https://jlondonobo.medium.com/"
 
-menu:
-  main:
-  - identifier: About
-    name: Sobre Mi
-    url: /about
-    weight: 10
-  - identifier: Blog
-    name: Blog
-    url: /blog/
-    weight: 20
-  - identifier: Contacto
-    name: Contacto
-    url: /contact
-    weight: 30
-
-    
-    ShowShareButtons: true
+    ShowShareButtons: false
 
     ShowReadingTime: true
 

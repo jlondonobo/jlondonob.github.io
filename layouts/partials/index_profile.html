@@ -1,0 +1,26 @@
+<div class="profile">
+    {{- with .Site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        <img src="{{ .imageUrl }}" alt="{{ .imageTitle | default "profile image" }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
+        <span>I'm a data scientist from Medellín, Colombia. 🇨🇴</span>
+        <div class="profile_info">I have been unlocking insights through Machine Learning, and Data Analysis with different national and international teams. 🌎</div>
+        <div class="profile_info">I like to build tools that help data teams with Python, SQL, Docker, and Deep Learning frameworks.</div>
+        <div class="profile_info">You might want to take a look at my <a href="{{ "blog" | absLangURL }}">Blog</a> where I talk about new technologies in the field. 🚀</div>
+        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
+                <span class="button-inner">{{ .name | title }}</span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>
