@@ -7,9 +7,9 @@
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <span>I'm a data scientist from Medellín, Colombia. 🇨🇴</span>
-        <div class="profile_info">I have been unlocking insights through Machine Learning, and Data Analysis with different national and international teams. 🌎</div>
-        <div class="profile_info">I like to build tools that help data teams with Python, SQL, Docker, and Deep Learning frameworks.</div>
-        <div class="profile_info">You might want to take a look at my <a href="{{ "blog" | absLangURL }}">Blog</a> where I talk about new technologies in the field. 🚀</div>
+        <div class="profile_info">I have experience developing end-to-end Data Science projects for large corporations. My projects usually revolve around Analytics, Machine Learning, Data Engineering and Cloud computing. ☁️</div>
+        <div class="profile_info">I like to build tools to make data teams faster and happier using Python, SQL, Docker, and AWS.</div>
+        <div class="profile_info">If you want to learn about development for data teams, take a look at my <a href="{{ "blog" | absLangURL }}">Blog</a> 📝🎯 where I talk about new technologies, best practices and lessons I've learned from my experience developing tools.</div>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
