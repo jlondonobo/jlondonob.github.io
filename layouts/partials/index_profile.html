@@ -6,10 +6,14 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-        <span>I'm a data scientist from Medellín, Colombia. 🇨🇴</span>
-        <div class="profile_info">I have experience developing end-to-end Data Science projects for large corporations. My projects usually revolve around Analytics, Machine Learning, Data Engineering and Cloud computing. ☁️</div>
-        <div class="profile_info">I like to build tools to make data teams faster and happier using Python, SQL, Docker, and AWS.</div>
-        <div class="profile_info">If you want to learn about development for data teams, take a look at my <a href="{{ "blog" | absLangURL }}">Blog</a> 📝🎯 where I talk about new technologies, best practices and lessons I've learned from my experience developing tools.</div>
+        <span>I'm a data scientist from Colombia. 🇨🇴</span>
+        <div class="profile_info">I have been building end-to-end data products for national and international organizations. with Python, SQL, and Docker. I usually </div>
+        <div class="profile_info">I like to build products with Python, SQL, and Docker. In my spare time, I build packages that make teams more efficient. 👨🏼‍💻</div>
+        <div class="profile_info">Take a look at <a href="https://talk-business.streamlit.app/"><b>Talk Business</b></a>, and <a href="https://eterna-primavera.streamlit.app/"><b>Eterna Primavera</b></a>, my most recent apps.</div>
+        
+        <div class="profile_info">I love writing great code and using good practices. If you want to learn about development for data teams, check out <a href="{{ "blog" | absLangURL }}">my blog</a> 🎯. In there, I talk about new technologies, best practices and lessons I've learned from my experience developing packages.</div>
+
+        
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
