@@ -7,7 +7,7 @@ draft: false
 
 Modern data pipelines are generally built on a dedicated server. Services like Airflow, Prefect, Mage, and Dagster manage data transfer and scheduling by constantly running on a server. This works fine for complex setups if there's a large team to develop and maintain such infrastructure, and costs are not a problem. However, if you're a solo developer or a small company, you might want to set up a simpler solution that you can deploy for virtually zero cost in a short period of time.
 
-This article provides a guide on building a data pipeline that's virtually free and which can be deployed to production in less than an hour. To build such a pipeline you'll leverage the ease of use of **[AWS SDK for pandas](https://aws-sdk-pandas.readthedocs.io/en/stable/index.html)**(formerly AWS Data Wrangler) and the cost-effective runtime environment from **AWS Lambda**.
+This article provides a guide on building a data pipeline that's virtually free and which can be deployed to production in less than an hour. To build such a pipeline you'll leverage the ease of use of **[AWS SDK for pandas](https://aws-sdk-pandas.readthedocs.io/en/stable/index.html)** (formerly AWS Data Wrangler) and the cost-effective runtime environment from **AWS Lambda**.
 
 The article is divided in 2 sections:
 

@@ -1,10 +1,17 @@
 baseURL: https://joselondono.co/
+title: José Londoño
+theme: PaperMod
 languageCode: en
 defaultContentLanguage: en
-title: José Londoño
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
 params:
     defaultTheme: light
+    DateFormat: "January 2, 2006"
 
     profileMode:
         enabled: true
@@ -27,12 +34,10 @@ params:
           url: "https://jlondonobo.medium.com/"
 
     ShowShareButtons: false
-
     ShowReadingTime: true
-
     ShowCodeCopyButtons: true
 
-theme: PaperMod
+
 pluralizelisttitles: false
 
 
