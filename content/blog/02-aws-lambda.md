@@ -165,9 +165,9 @@ Once you wrote the pipeline, go ahead and create a Lambda function on the AWS co
 
 Before choosing a runtime, make sure there's a [managed layer](https://aws-sdk-pandas.readthedocs.io/en/stable/layers.html) for it. AWS SDK for pandas' managed layers do not support all runtimes. If you select a runtime for which managed layers are not available, you won't be able to attach the layer.
 
-![[images/01_create_function.png]]
+![](/images/02-aws-lambda/01_create_function.png)
 
-![[images/02_function_setup.png]]
+![](/images/02-aws-lambda/02_function_setup.png)
 
 #### Step 3: Update the function's configuration and execution role
 
@@ -184,9 +184,9 @@ If your function interacts with other AWS resources like Glue, S3 or Redshift, y
 - [Example Lambda execution role](https://github.com/jlondonobo/aws-sdk-lambda-finance-demo/blob/main/role_example.json).
 - Tip: Describe the pipeline to ChatGPT and ask it to generate an AWS JSON policy.
 
-![[images/03_start_config.png]]
+![](/images/02-aws-lambda/03_start_config.png)
 
-![[images/04_edit_config.png]]
+![](/images/02-aws-lambda/04_edit_config.png)
 
 #### Step 4: Add the AWS SDK for pandas managed layer
 
@@ -197,11 +197,11 @@ Once you correctly configured the function, add the AWS SDK for pandas managed f
 3. Select the **AWSSDKPandas layer** and its **version** from the dropdown menus.
 4. Click on **Add**.
 
-![[images/05_layers_start.png]]
-![[images/06_layers_config.png]]
+![](/images/02-aws-lambda/05_layers_start.png)
+![](/images/02-aws-lambda/06_layers_config.png)
 
 If you successfully added the layer, the **"Layers" diagram element** will show a (1) next to it.
-![[images/07_layers_confirmation.png]]
+![](/images/02-aws-lambda/07_layers_confirmation.png)
 
 ### Step 5: Set up a cron trigger
 
@@ -210,9 +210,9 @@ In the final step of the configuration, you'll set up the scheduler. Namely, an 
 Cron statements are minute-precise. They have control of running a program at a minute level, but not at a second level. If you need second-level control, start the function a minute earlier, and write the starting logic in the code.
 
 To set up a cron trigger, take the following steps: 2. Click on the **Add trigger**. 3. Select **EventrBridge trigger**. 4. Select **Create a new rule**. 5. Name the trigger and add a description. 6. Select **Scheduled expression**. 7. Define the function's execution schedule using cron notation. 8. Click on **Add**.
-![[images/08_add_trigger.png]]
+![](/images/02-aws-lambda/08_add_trigger.png)
 
-![[images/09_configure_trigger.png]]
+![](/images/02-aws-lambda/09_configure_trigger.png)
 EventBridge cron statements differ from traditional Unix-style cron statements. If you're unfamiliar with its syntax or want a refresher, ask ChatGPT to generate the statements for you. Take the following differences into consideration:
 
 - EventBridge statements include a year field.
@@ -230,8 +230,8 @@ The last step of the setup is to upload the _deployment package_. To do so, take
 5. Drag and drop your deployment package.
 6. Click on **save**.
 
-![[images/10_upload_zip.png]]
-![[images/11_drag_zip.png]]
+![](/images/02-aws-lambda/10_upload_zip.png)
+![](/images/02-aws-lambda/11_drag_zip.png)
 
 ### Step 7: Test the pipeline
 The pipeline is now online. Test it by taking the following steps:
@@ -239,4 +239,4 @@ The pipeline is now online. Test it by taking the following steps:
 1. Go to the **Test** tab and hit the **Test** button.
 2. Go to the **AWS Athena console** and query the table you just created.
 
-![[images/12_test_function.png]]
+![](/images/02-aws-lambda/12_test_function.png)
