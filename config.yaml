@@ -15,8 +15,8 @@ params:
 
     profileMode:
         enabled: true
-        title: "Hi! I'm José Londoño 👋🏻"
-        imageUrl: "assets/me.jpg" 
+        title: "Hey! I'm Jose Londoño"
+        # imageUrl: "assets/me.jpg" 
         imageTitle: "Me" # optional
         imageWidth: 350 # custom size
         imageHeight: 350 # custom size
@@ -30,8 +30,6 @@ params:
           url: "mailto:j.londonobo@gmail.com"
         - name: "Linkedin"
           url: "https://www.linkedin.com/in/jose-londono-botero"
-        - name: "Medium"
-          url: "https://jlondonobo.medium.com/"
 
     ShowShareButtons: false
     ShowReadingTime: true
