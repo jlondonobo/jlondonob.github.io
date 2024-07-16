@@ -14,13 +14,13 @@ draft: false
 - **Keyboard**: Logitech MX Keys
 - **Mouse**: Logitech MX Master 2S, 1000 DPI, Unifying Receiver for better latency
 - **Stand**: Griffin Elevator Laptop Stand
-- **Desk**: Custom wood + steel, 150 x 70 x 70
-- **Chair**: MUMA Afinity, armless
-- **Headphones**: Sony WH-1000XM5,
-- **In-ear headphones**: AirPods Pro, 2nd generation
+- **Desk**: Custom Made, 150 x 70 x 70
+- **Chair**: MUMA Afinity
+- **Headphones**: Sony WH-1000XM5
+- **In-ear headphones**: AirPods Pro, 2nd gen.
 - **Lamp**: Taotronics LED Desk Lamp 13
 - **Hub**: Anker 555
-- **Plant**: Ficus Lyrata :)
+- **Plant**: Ficus Lyrata
 
 ## Work laptop
 
